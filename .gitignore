@@ -1,0 +1,29 @@
+# Ignoruj pliki związane ze środowiskiem wirtualnym
+.venv/
+venv/
+ENV/
+env/
+
+# Ignoruj pliki cache Pythona
+__pycache__/
+*.py[cod]
+
+# Ignoruj pliki z logami
+*.log
+
+# Ignoruj pliki tymczasowe edytorów tekstu
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Ignoruj pliki konfiguracyjne systemu operacyjnego
+.DS_Store
+Thumbs.db
+
+# Ignoruj pliki wynikowe testów
+.pytest_cache/
+
+# Ignoruj zależności (jeśli używasz narzędzi takich jak pipenv)
+Pipfile.lock
+poetry.lock
